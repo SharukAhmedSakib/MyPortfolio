@@ -19,21 +19,63 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.resumeSection{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 10%;
+    padding-bottom: 0;
+}
+.experience div{
+    box-shadow: 5px 7px 40px grey;
+    padding-top: 2%;
+}
+
+.halfWidthDiv{
+    width: 35%;
+    float: left;
+    margin-left: 7%;
+    padding-top: 10%;
+    padding: 2%;
+    height: 60%;
+}
+.grad{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.brad{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
 .halfWidth{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    padding-top: 10%;
 }
 .halfWidth img{
-    width: 80%;
-    padding-top: 20%;
-    padding-left: 10%;
+    width: 100%;
 }
-#orange{
+.orange{
     color: orange;
 }
 h1{
     font-weight: 700;
     font-size: 40px;
+}
+footer{
+    text-align: center;
+    color: dimgray;
+    padding-bottom: 2%;
 }
