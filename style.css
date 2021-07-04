@@ -43,7 +43,7 @@ section{
     margin-left: 7%;
     padding-top: 10%;
     padding: 2%;
-    height: 60%;
+    height: fit-content;
 }
 .grad{
     
